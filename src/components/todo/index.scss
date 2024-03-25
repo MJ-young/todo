@@ -1,0 +1,51 @@
+.todo {
+    padding: 10px;
+    margin: 10px 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-text {
+    flex-grow: 1;
+  }
+    
+  .todo-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    .picker {
+      margin-left: 10px;
+    }
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+  .todo-work {
+    background-color: #e1f5fe;
+  }
+  
+  .todo-study {
+    background-color: #e8f5e9;
+  }
+  
+  .todo-life {
+    background-color: #fff3e0;
+  }
+
+  .todo-normal {
+    background-color: #f3e5f5;
+  }
+
+.icon-button {
+    width: 100px;
+    justify-content: end;
+}

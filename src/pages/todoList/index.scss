@@ -1,0 +1,36 @@
+.page {
+    padding: 20px;
+}
+
+.add-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.icon-button {
+  width: 150px;
+  justify-content: end;
+}
+
+.uncompleted {
+  text-decoration: none;
+  color: #000;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.sort-box {
+  position: end;
+}
